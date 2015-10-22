@@ -32,6 +32,11 @@
     </plugins>
     </pluginManagement>
   </build>
+  <scm>
+    <!--connection>scm:git:https://github.com/dadhikari/web-app.git</connection-->
+    <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
+    <!--url>http://Everest:18080/svn/web-app/</url-->
+  </scm> 
 
   <dependencies>
     <dependency>
@@ -41,4 +46,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <url>http://localhost:8081/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
