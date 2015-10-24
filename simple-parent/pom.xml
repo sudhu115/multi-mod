@@ -12,44 +12,10 @@
   <artifactId>simple-parent</artifactId>
   <packaging>pom</packaging>
   <name>Multi Chapter Simple Parent Project</name>
- 
-  <modules>
+   <modules>
     <module>simple-weather</module>
     <module>simple-webapp</module>
   </modules>
-   <scm>
-    <connection>scm:git:https://github.com/dadhikari/web-app.git</connection>
-    <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
-    <url>git:https://github.com/dadhikari/web-app.git</url>
-  </scm> 
-
-  <build>
-    <pluginManagement>
-      <plugins>
-          <plugin>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.2</version>
-          </plugin>
-      <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-               <artifactId>maven-scm-plugin</artifactId>
-               <version>1.9.4</version>
-                 <configuration>
-                     <connectionType>connection</connectionType>
-                 </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
-        </configuration>
-      </plugin>
-    </plugins>
-    </pluginManagement>
-  </build>
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -58,14 +24,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-      <id>Releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>Releases</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-</project>
+ </project>
