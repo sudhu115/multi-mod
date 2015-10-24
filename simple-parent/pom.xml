@@ -30,7 +30,7 @@
                <artifactId>maven-scm-plugin</artifactId>
                <version>1.9.4</version>
                  <configuration>
-                     <connectionType>developerConnection</connectionType>
+                     <connectionType>connection</connectionType>
                  </configuration>
       </plugin>
       <plugin>
@@ -45,8 +45,8 @@
     </pluginManagement>
   </build>
   <scm>
-    <!--connection>scm:git:https://github.com/dadhikari/web-app.git</connection-->
-    <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
+    <connection>scm:git:https://github.com/dadhikari/web-app.git</connection>
+    <!--developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection-->
     <!--url>http://Everest:18080/svn/web-app/</url-->
   </scm> 
 
