@@ -15,7 +15,7 @@
   <scm>
     <!--connection>scm:git:https://github.com/dadhikari/web-app.git</connection-->
     <developerConnection>scm:git:https://github.com/dadhikari/web-app.git</developerConnection>
-    <url>https://github.com/dadhikari/web-app.git/</url-->
+    <url>https://github.com/dadhikari/web-app.git/</url>
   </scm>
   <distributionManagement>
     <repository>
