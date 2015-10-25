@@ -45,6 +45,7 @@
                <version>1.9.4</version>
                   <configuration>
                  <connectionType>developerConnection</connectionType>
+                 <message>initial-commit</message>
                </configuration>
             </plugin>
       </plugins>
