@@ -12,6 +12,7 @@
   <modules>
     <module>simple-parent</module>
   </modules>
+  <!--This is a comment-->
   <scm>
     <!--connection>scm:git:https://github.com/dadhikari/web-app.git</connection-->
     <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
@@ -23,7 +24,7 @@
       <url>http://localhost:8081/nexus/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
-      <id>Releases</id>
+      <id>Snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
@@ -35,9 +36,9 @@
                 <version>2.5.3</version>
             </plugin>
             <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
+               <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+               <version>3.3</version>
              </plugin>
             <plugin>
                <groupId>org.apache.maven.plugins</groupId>
