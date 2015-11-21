@@ -12,7 +12,7 @@
   <modules>
     <module>simple-parent</module>
   </modules>
-  <!--This is the nice comment-->
+  <!--This is the nice comment like i said-->
   <scm>
     <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
     <url>https://github.com/danny753/multi-mod.git</url>
