@@ -13,7 +13,8 @@
     <module>simple-parent</module>
   </modules>
   <!--This is the nice comment like i said and i like it too 
-  Hello dude nigga -->
+  Hello dude nigga 
+  Dude sudurshan here-->
   <scm>
     <developerConnection>scm:git:https://github.com/danny753/multi-mod.git</developerConnection>
     <url>https://github.com/danny753/multi-mod.git</url>
